@@ -1,0 +1,43 @@
+		body {
+		    background: #FACEB4;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    margin: 16px;
+		}
+		
+		td {
+		    padding: 0 20px;
+		}
+		
+		img {
+		    width: 500px;
+		    height: 300px;
+		    padding-bottom: 20px;
+		}
+		
+		ul {
+		    margin-left: 150px;
+		    color: white;
+		}
+		
+		table {
+		    color: white;
+		}
+		
+		dl {
+		    margin-left: 150px;
+		    color: white;
+		    margin-right: 65px;
+		}
+		
+		dt {
+		    color: orange;
+		    margin-bottom: 5px;
+		}
+		
+		.rp {
+		    background-color: #FADBD8;
+		    margin: 16px;
+		}

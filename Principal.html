@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RecetasEmily</title>
+
+    <link rel="stylesheet" type="text/css" href="principal.css">
+    <link rel="stylesheet" href="file:///C:/Emily/Recetas%20Emily/Recetas_Emily/Principal.html">
+    <link rel="icon" href="./slogan.ico">
+</head>
+
+<body>
+    <br><br>
+    <center>
+        <table>
+            <tr>
+                <td class="content"><a style="text-decoration:none;" href="Macarronesconqueso.html"><button>Macarrones con queso</button></a></td>
+                <td class="content"><a style="text-decoration:none;" href="Arepaconhuevo.html"><button>Arepa con huevo</button></a></td>
+                <td class="content"><a style="text-decoration:none;" href="Hogao.html"><button>Hogao</button></a></td>
+                <td class="content"><a style="text-decoration:none;" href="Guacamole.html"><button>Guacamole</button></a></td>
+            </tr>
+
+        </table>
+    </center>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#search').keyup(function() {
+            var text = $(this).val();
+            $('.content').hide();
+            $('.content:contains("' + text + '")').show();
+
+        });
+    });
+</script>
+
+</html>
